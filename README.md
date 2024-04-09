@@ -18,7 +18,6 @@ Regex, ou expressões regulares, são padrões utilizados para identificar combi
 - **Manipulação de strings**
 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/72711b38-b00c-40b8-927b-bb3a61b0fb69/7a047a2f-bf0e-49cc-b599-668d08b08f54/Untitled.png)
 
 ### Sites de conceitos :
 
