@@ -14,7 +14,7 @@
 -  Clone o repositório:
 
    ```
-   git clone [https://github.com/GuilhermeMLeal/MecatronicFan.git](https://github.com/GuilhermeMLeal/Comite_Repository.git)
+   git clone https://github.com/GuilhermeMLeal/Comite_Repository.git
     ```
 - Para entrar na pasta do arquivo:
 
