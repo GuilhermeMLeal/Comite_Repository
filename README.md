@@ -111,7 +111,7 @@ Testes de software são uma prática fundamental no desenvolvimento de software,
 - Para nomear funções:
     - Use nomes descritivos que indique qual ação está sendo, exemplo : adição, instanciação e etc
     - Prefixo : “test_”
-- Para tornar o seu teste uma forma mais clara e descritiva utilize o padrão GIVEN-WHEN-THEN
+- Para tornar o seu teste uma forma mais clara e descritiva com uma estrutura padrão, utilize o padrão GIVEN-WHEN-THEN
     - **Given:** Nomeie a função que configura o estado inicial do teste.
     - **When:** Nomeie a função que descreve a ação que está sendo testada.
     - **Then:** Nomeie a função que verifica o resultado da ação.
