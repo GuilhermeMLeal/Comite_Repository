@@ -25,7 +25,7 @@ class ValidInformation:
             return False
 
 if __name__ == "__main__":
-    person = Person("", 20, "(15) 92211-2131")
+    person = Person("Guilherme", 20, "(15) 92211-2131")
     if ValidInformation.validate_person(person):
         print("Pessoa válido")
     else:
