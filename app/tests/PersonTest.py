@@ -3,7 +3,7 @@ from app.PersonEntity import Person, ValidInformation
 
 class TestPerson:
 
-    def test_person_equal():
+    def test_person_equal(self):
         # Given
         varTest = Person("Guilherme", 19, "(15) 98130-9032")
 
@@ -13,12 +13,12 @@ class TestPerson:
         # Then
         assert result == varTest
 
-    def test_peson_validate():
+    def test_peson_validate(self):
         # Given
         varTest = Person("Joao", 80, "(15) 98130-9032")
 
         # When 
-        is_valid = ValidInformation.validate_person(varTest)
+        valid_data = ValidInformation.validate_person(varTest)
 
         # Then
-        assert is_valid == True
+        assert valid_data == True
