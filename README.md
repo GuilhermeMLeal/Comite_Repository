@@ -1,5 +1,58 @@
 # Apresentação Comitê dia 15/04
 
+## Requisitos funcionais:
+- IDE (Visual Studio Code ou PyCharm)
+- Python (compatível com todas as versões a partir da 3.11.3)
+- Pytest 8.1.1
+
+## Requisitos não funcionais:
+- Lógica de programação
+- Expresões Regulares
+- Testes
+
+#### Para funcionar a aplicação localmente é necessário:
+-  Clone o repositório:
+
+   ```
+   git clone [https://github.com/GuilhermeMLeal/MecatronicFan.git](https://github.com/GuilhermeMLeal/Comite_Repository.git)
+    ```
+- Para entrar na pasta do arquivo:
+
+    ```
+    cd Comite_Repository
+    ```
+
+-   **Crie um ambiente virtual:**
+
+    ```
+    python -m venv .env 
+    ```
+
+- Utilize o seguinte comando:
+
+    ```
+    .env\Scripts\activate
+    ```
+
+-  Logo Após, utilize:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+- Para execução da aplicação, ainda no terminal da IDE entre na pasta :
+  ```
+    cd app
+  ```
+- E execute a aplicação com :
+  ```
+    python PersonEntity.py / python3 PersonEntity.py
+  ```
+- E para execução dos testes é necessário:
+   ```
+    pytest tests/PersonTest.py
+  ```
+
 ## O que é RegEx (Regular Expression)?
 
 Regex, ou expressões regulares, são padrões utilizados para identificar combinações de caracteres em textos. Elas são amplamente utilizadas em diversas áreas da computação, como processamento de texto, validação de dados, busca e substituição de padrões, entre outros.
