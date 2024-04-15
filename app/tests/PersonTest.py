@@ -3,19 +3,20 @@ from app.PersonEntity import Person, ValidInformation
 
 class TestPerson:
 
-    def test_person_equal(self):
+    def test_if_person_is_equal(self):
         # Given
-        varTest = Person("Guilherme", 19, "(15) 98130-9032")
-
+        person = Person("Guilherme", 19, "(15) 98130-9032")
+        person_test = Person("Guilherme", 19, "(15) 98130-9032")
+        
         # When
-        result = Person("Guilherme", 19, "(15) 98130-9032")
+        result = person.equal(person_test)
 
         # Then
-        assert result == varTest
+        assert result == True
 
     def test_peson_validate(self):
         # Given
-        varTest = Person("Joao", 80, "(15) 98130-9032")
+        person = Person("Joao", 80, "(15) 98130-9032")
 
         # When 
         valid_data = ValidInformation.validate_person(varTest)
