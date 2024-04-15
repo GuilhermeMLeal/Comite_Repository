@@ -8,8 +8,8 @@ class Person:
         self.age = age
         self.number = number
 
-    def __eq__(self, other: object) -> bool:
-        if isinstance(other, Person): return self.name == other.name and self.age == other.age
+    def __eq__(self, other_person: object) -> bool:
+        if isinstance(other_person, Person): return self.name == other_person.name and self.age == other_person.age and self.number == other_person.number
         else: return False
 
 class ValidInformation:
@@ -27,6 +27,6 @@ class ValidInformation:
 if __name__ == "__main__":
     person = Person("Guilherme", 20, "(15) 92211-2131")
     if ValidInformation.validate_person(person):
-        print("Pessoa válido")
+        print("Pessoa válida")
     else:
-        print("Person inválido")
+        print("Pessoa inválida")
